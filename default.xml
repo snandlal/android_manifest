@@ -13,10 +13,9 @@
   <project path="android_manifest" name="snandlal/android_manifest" remote="github" revision="jb">
     <copyfile src=".classpath" dest=".classpath" />
   </project>
-  <project path="build" name="platform/build">
+  <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -25,23 +24,23 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-<!-- <project path="device/asus/grouper" name="device/asus/grouper" /> -->
+  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-<!-- <project path="device/moto/common" name="device/moto/common" /> -->
-<!-- <project path="device/moto/stingray" name="device/moto/stingray" /> -->
-<!-- <project path="device/moto/wingray" name="device/moto/wingray" /> -->
+  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/stingray" name="device/moto/stingray" />
+  <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="snandlal/crespo4g" remote="github" revision="jb" />
-  <project path="device/samsung/maguro" name="Crossbones/android_device_samsung_maguro" remote="github" revision="jellybean" />
-  <project path="device/samsung/toro" name="Crossbones/android_device_samsung_toro" remote="github" revision="jellybean" />
-  <project path="device/samsung/toroplus" name="Crossbones/android_device_samsung_toroplus" remote="github" revision="jellybean" />
-  <project path="device/samsung/tuna" name="Crossbones/android_device_samsung_tuna" remote="github" revision="jellybean" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <project path="device/samsung/toro" name="device/samsung/toro" />
+  <project path="device/samsung/torospr" name="device/samsung/torospr" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -62,9 +61,11 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
@@ -187,7 +188,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="peteralfonso/platform_frameworks_base" remote="github" revision="jb"/>
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -253,12 +254,13 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <!-- <project path="packages/apps/Superuser" name="Superuser" remote="chainsdd" revision="master" /> -->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -303,7 +305,6 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
-  <!-- <project path="system/extras/su" name="su-binary" remote="chainsdd" revision="master" /> -->
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
