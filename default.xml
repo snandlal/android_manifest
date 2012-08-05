@@ -302,7 +302,7 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   
-  <project path="external/busybox" name="snandlal/busybox" remote="github" revision="jellybean" />
+  <project path="external/busybox" name="snandlal/busybox" remote="github" revision="master" />
   <project path="vendor" name="snandlal/vendor" remote='github' revision="jb" />
 
 </manifest>
