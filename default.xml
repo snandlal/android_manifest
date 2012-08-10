@@ -7,7 +7,7 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <default revision="refs/tags/jb-release"
+  <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"/>
 
   <project path="android_manifest" name="snandlal/android_manifest" remote="github" revision="jb">
