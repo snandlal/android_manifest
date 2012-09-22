@@ -156,6 +156,5 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="vendor/oxygen" name="oxygen-rom-gb/android_vendor_oxygen" remote="github" />
   <project path="vendor" name="snandlal/vendor" remote="github" revision="gingerbread" />
 </manifest>
