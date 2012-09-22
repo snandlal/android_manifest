@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="gingerbread-release"
+  <default revision="gingerbread"
            remote="aosp"
            sync-j="4" />
            
