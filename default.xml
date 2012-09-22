@@ -162,12 +162,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="vendor/akm" name="koush/proprietary_vendor_akm" remote="github" />
-  <project path="vendor/broadcom" name="koush/proprietary_vendor_broadcom" remote="github" />
-  <project path="vendor/imgtec" name="koush/proprietary_vendor_imgtec" remote="github" />
-  <project path="vendor/nxp" name="koush/proprietary_vendor_nxp" remote="github" />
   <project path="vendor/oxygen" name="oxygen-rom-gb/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="oxygen-rom-gb/android_vendor_google" remote="github" />
-  <project path="vendor/htc" name="oxygen-rom-gb/android_vendor_htc" remote="github" />
-  <project path="vendor/samsung" name="oxygen-rom-gb/android_vendor_samsung" remote="github" />
 </manifest>
