@@ -7,7 +7,7 @@
 
   <remote name="github" fetch="git://github.com/" />
 
-  <project path="android_manifest" name="VanillaAOSP/android_manifest" remote="github" revision="gb">
+  <project path="android_manifest" name="VanillaAOSP/android_manifest" remote="github" revision="gingerbread">
   </project>
 
   <project path="build" name="oxygen-rom-gb/android_build" remote="github">
