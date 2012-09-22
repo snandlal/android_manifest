@@ -185,7 +185,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   
-  <project path="vendor/google" name="VanillaAOSP/android_vendor_google" remote="github" />
+  <project path="vendor/google" name="VanillaAOSP/android_vendor_google" remote="github" revision="gingerbread" />
   <project path="vendor" name="snandlal/vendor" remote="github" revision="gingerbread" />
 
 </manifest>
