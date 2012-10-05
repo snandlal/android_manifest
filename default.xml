@@ -187,7 +187,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="snandlal/frameworks_base" remote="github" revision="jb" />
+  <project path="frameworks/base" name="snandlal/frameworks_base" remote="github" revision="wip" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -243,7 +243,7 @@
   <project path="packages/apps/Phone" name="snandlal/Phone" remote="github" revision="jb" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="snandlal/Settings" remote="github" revision="jb" />
+  <project path="packages/apps/Settings" name="snandlal/Settings" remote="github" revision="wip" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/experimental" name="platform/packages/experimental" />
