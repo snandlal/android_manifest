@@ -8,8 +8,7 @@
            fetch="https://android.googlesource.com/" />
 
   <default revision="refs/tags/android-4.1.2_r1"
-           remote="aosp"
-           sync-j="4"/>
+           remote="aosp"/>
 
   <project path="android_manifest" name="snandlal/android_manifest" remote="github" revision="jb">
   </project>
