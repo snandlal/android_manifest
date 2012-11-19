@@ -343,7 +343,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   
-  <project path="external/busybox" name="CyanogenMod/android_external/busybox" remote="github" revision="jellybean" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
   <project path="vendor" name="snandlal/vendor" remote='github' revision="JZO54K" />
 
 </manifest>
