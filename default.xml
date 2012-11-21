@@ -299,6 +299,6 @@
   <project path="system/vold" name="platform/system/vold" />
   
   <project path="external/busybox" name="snandlal/busybox" remote="github" revision="jellybean" />
-  <project path="vendor" name="snandlal/vendor" remote='github' revision="IMM76L" />
+  <project path="vendor" name="snandlal/vendor" remote='github' revision="JZO54K" />
 
 </manifest>
