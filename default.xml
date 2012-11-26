@@ -32,7 +32,7 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="snandlal/crespo" remote="github" revision="jb" />
+  <project path="device/samsung/crespo" name="snandlal/crespo" remote="github" revision="ics" />
   <project path="device/samsung/crespo4g" name="snandlal/crespo4g" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
