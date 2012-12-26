@@ -28,7 +28,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/htc/supersonic" name="snandlal/supersonic" remote="github" revision="ics"
+  <project path="device/htc/supersonic" name="snandlal/supersonic" remote="github" revision="ics" />
   <project path="device/moto/common" name="device/moto/common" />
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
