@@ -10,7 +10,7 @@
   <default revision="jb-mr1-release"
            remote="aosp"/>
 
-  <project path="android_manifest" name="snandlal/android_manifest" remote="github" revision="4.2_r1">
+  <project path="android_manifest" name="snandlal/android_manifest" remote="github" revision="jb-mr1">
   </project>
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
