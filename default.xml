@@ -274,7 +274,7 @@
   <project path="packages/apps/Mms" name="snandlal/Mms" remote="github" revision="mr1-wip" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="snandlal/Phone" remote="github" revision"mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="snandlal/Settings" remote="github" revision="mr1-dev" />
