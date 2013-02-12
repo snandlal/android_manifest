@@ -37,7 +37,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="snandlal/crespo" remote="github" revision="mr1-wip" />
+  <project path="device/samsung/crespo" name="snandlal/crespo" remote="github" revision="mr1" />
   <project path="device/samsung/crespo4g" name="snandlal/crespo4g" remote="github" revision="mr1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
