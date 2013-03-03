@@ -242,6 +242,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="snandlal/android_packages_apps_SamsungServiceMode" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="snandlal/Settings" remote="github" revision="jb-wip" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
